@@ -1,0 +1,573 @@
+aid: astropay
+name: AstroPay
+description: >-
+  AstroPay is a Uruguay-founded fintech and electronic money institution
+  offering a multicurrency wallet, virtual and physical AstroCards, FX, and
+  cross-border money transfers for consumers across Latin America, plus a
+  business platform that lets merchants accept payments, issue cards, manage
+  payroll, and pay out to wallets and bank accounts. AstroPay is regulated as
+  an EMI in the UK, Denmark, Isle of Man, and Brazil, and operates the
+  AstroPay wallet across Argentina, Brazil, Chile, Mexico, Peru, Colombia,
+  Uruguay, and additional global corridors with support for ARS, BRL, CLP,
+  COP, EUR, GBP, MXN, PEN, USD, USDT, and UYU. For developers, AstroPay
+  exposes a comprehensive REST platform spanning payments, payouts, PIX
+  instant payments in Brazil, issued cards, savings accounts, scheme
+  transfers, user account management, tokenization (PCI-compliant card
+  collection), settlements, transaction reporting, hosted and embedded
+  Checkout, QR-code POS, Wallet-on-File account linking, Cashouts, and
+  Webhooks — accessed through `developers.astropay.com` with HMAC-signed
+  callbacks and an OAuth/API-key authentication model.
+url: https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+position: Provider
+access: 3rd-Party
+specificationVersion: '0.20'
+created: '2026-05-24'
+modified: '2026-05-24'
+tags:
+- Payments
+- Payment Processing
+- Payouts
+- Wallet
+- Digital Wallet
+- Multicurrency
+- Cards
+- Card Issuing
+- PIX
+- LATAM
+- Latin America
+- Brazil
+- Argentina
+- Mexico
+- Chile
+- Peru
+- Colombia
+- Uruguay
+- Fintech
+- Foreign Exchange
+- Cross-Border Payments
+- Checkout
+- QR Payments
+- Tokenization
+- Embedded Finance
+- Money Transfer
+- Remittance
+- Gaming Payments
+- Marketplace Payments
+- Payroll
+apis:
+- aid: astropay:astropay-payments-api
+  name: AstroPay Payments API
+  description: >-
+    Core Payments API on the AstroPay platform for creating, retrieving, and
+    managing payment transactions across the AstroPay wallet network and
+    supported local payment methods. Backs merchant pay-in flows initiated
+    from Checkout or built directly server-to-server.
+  humanURL: https://developers.astropay.com/docs/platform/payments
+  tags:
+  - Payments
+  - Pay-In
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/payments
+    type: Documentation
+  - url: https://developers.astropay.com/docs/platform/introduction
+    type: Documentation
+- aid: astropay:astropay-payout-api
+  name: AstroPay Payout API
+  description: >-
+    Payout API on the AstroPay platform for sending funds to AstroPay
+    wallets, bank accounts, and other supported destinations. Used for
+    marketplace seller payouts, gaming withdrawals, payroll disbursements,
+    and B2B settlements across LatAm corridors.
+  humanURL: https://developers.astropay.com/docs/platform/payout
+  tags:
+  - Payouts
+  - Disbursement
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/payout
+    type: Documentation
+- aid: astropay:astropay-pix-api
+  name: AstroPay PIX API
+  description: >-
+    PIX integration on the AstroPay platform for Brazil's instant payment
+    rail. Create PIX charges, receive PIX payments, and issue PIX payouts
+    backed by AstroPay's local Brazilian licensing.
+  humanURL: https://developers.astropay.com/docs/platform/pix
+  tags:
+  - PIX
+  - Brazil
+  - Instant Payments
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/pix
+    type: Documentation
+- aid: astropay:astropay-cards-management-api
+  name: AstroPay Cards Management API
+  description: >-
+    Cards Management API for programmatic issuance and lifecycle management
+    of AstroPay virtual and physical prepaid cards. Used by businesses to
+    issue branded cards to employees, contractors, marketplace participants,
+    and end users.
+  humanURL: https://developers.astropay.com/docs/platform/cards-management
+  tags:
+  - Cards
+  - Card Issuing
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/cards-management
+    type: Documentation
+- aid: astropay:astropay-users-management-api
+  name: AstroPay Users Management API
+  description: >-
+    Users Management API for creating and managing platform users associated
+    with a merchant or partner account, including KYC linkage and access
+    control to AstroPay platform resources.
+  humanURL: https://developers.astropay.com/docs/platform/users-management
+  tags:
+  - Users
+  - Identity
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/users-management
+    type: Documentation
+- aid: astropay:astropay-user-account-management-api
+  name: AstroPay User Account Management API
+  description: >-
+    User Account Management API for managing the financial accounts attached
+    to a platform user, including multicurrency balances, statements, and
+    account settings.
+  humanURL: https://developers.astropay.com/docs/platform/user-account-management
+  tags:
+  - Accounts
+  - Multicurrency
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/user-account-management
+    type: Documentation
+- aid: astropay:astropay-scheme-transfers-api
+  name: AstroPay Scheme Transfers API
+  description: >-
+    Scheme Transfers API for moving funds across AstroPay accounts and
+    between schemes inside the AstroPay network, supporting wallet-to-wallet
+    transfers and internal book transfers.
+  humanURL: https://developers.astropay.com/docs/platform/scheme-transfers
+  tags:
+  - Transfers
+  - Internal Transfers
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/scheme-transfers
+    type: Documentation
+- aid: astropay:astropay-savings-account-api
+  name: AstroPay Savings Account API
+  description: >-
+    Savings Account API for creating and managing interest-bearing savings
+    accounts attached to AstroPay platform users.
+  humanURL: https://developers.astropay.com/docs/platform/savings-account
+  tags:
+  - Savings
+  - Yield
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/savings-account
+    type: Documentation
+- aid: astropay:astropay-settlements-api
+  name: AstroPay Settlements API
+  description: >-
+    Settlements API for retrieving merchant settlement files, reconciling
+    settled transactions, and downloading settlement reports across the
+    AstroPay platform.
+  humanURL: https://developers.astropay.com/docs/platform/settlements
+  tags:
+  - Settlements
+  - Reconciliation
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/settlements
+    type: Documentation
+- aid: astropay:astropay-tokenizer-api
+  name: AstroPay Tokenizer API
+  description: >-
+    Tokenizer API and SDKs (iOS and Android) for PCI-compliant collection of
+    sensitive card data. Cards are tokenized client-side and the token is
+    used in server-to-server payment requests, reducing PCI scope for
+    merchants.
+  humanURL: https://developers.astropay.com/docs/platform/tokenizer/tokenizer-api
+  tags:
+  - Tokenization
+  - PCI
+  - Cards
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/tokenizer/tokenizer-api
+    type: Documentation
+  - url: https://developers.astropay.com/docs/platform/tokenizer/ios-sdk/getting-started
+    type: Documentation
+    name: iOS Tokenizer SDK
+  - url: https://developers.astropay.com/docs/platform/tokenizer/android-sdk/getting-started
+    type: Documentation
+    name: Android Tokenizer SDK
+- aid: astropay:astropay-partners-services-api
+  name: AstroPay Partners Services API
+  description: >-
+    Partners Services API for integrators and partner platforms to manage
+    sub-merchants, services, and partner-scoped resources on the AstroPay
+    platform.
+  humanURL: https://developers.astropay.com/docs/platform/partners-services
+  tags:
+  - Partners
+  - Platform
+  properties:
+  - url: https://developers.astropay.com/docs/platform/partners-services
+    type: Documentation
+- aid: astropay:astropay-direct-payment-api
+  name: AstroPay Direct Payment API
+  description: >-
+    Direct Payment API for processing local pay-ins via the AstroPay payment
+    processing rail. Supports Brazil and Mexico with local payment methods
+    (PIX, Boleto, OXXO, SPEI) for merchants integrating without the AstroPay
+    wallet.
+  humanURL: https://developers.astropay.com/docs/payment-processing/direct-payment/getting-started
+  tags:
+  - Direct Payment
+  - Payment Processing
+  - Brazil
+  - Mexico
+  properties:
+  - url: https://developers.astropay.com/docs/payment-processing/direct-payment/getting-started
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-payment/request-parameters
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-payment/callbacks
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-payment/supported-countries/brazil
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-payment/supported-countries/mexico
+    type: Documentation
+- aid: astropay:astropay-direct-withdrawal-api
+  name: AstroPay Direct Withdrawal API
+  description: >-
+    Direct Withdrawal API for processing local payouts and withdrawals into
+    bank accounts across Argentina, Brazil, Chile, India, and Peru. Used by
+    marketplaces, gaming operators, and other payout-heavy businesses
+    integrating directly with the AstroPay processing rail.
+  humanURL: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/getting-started
+  tags:
+  - Direct Withdrawal
+  - Payouts
+  - Payment Processing
+  - Argentina
+  - Brazil
+  - Chile
+  - India
+  - Peru
+  properties:
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/getting-started
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/request-parameters
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/bank-information
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/callbacks
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/supported-countries/argentina
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/supported-countries/brazil
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/supported-countries/chile
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/supported-countries/peru
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/direct-withdrawal/supported-countries/india
+    type: Documentation
+- aid: astropay:astropay-checkout-api
+  name: AstroPay Checkout API
+  description: >-
+    Accept AstroPay Checkout — a hosted and embedded payment acceptance flow
+    that lets merchants accept AstroPay wallet payments alongside local
+    payment methods. Supports offsite (redirect), embedded (iframe / web
+    component), and React Native integration modes with theming,
+    internationalization, and full payment lifecycle management.
+  humanURL: https://developers.astropay.com/docs/accept-astropay/checkout/overview
+  tags:
+  - Checkout
+  - Accept Payments
+  - Embedded
+  properties:
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/overview
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/getting-started
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/integration-modes
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/embedded-integration/overview
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/offsite-integration/overview
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/payment-lifecycle/creating-payments
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/payment-lifecycle/callback-and-status
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/checkout/payment-lifecycle/refunding-payments
+    type: Documentation
+- aid: astropay:astropay-qr-payments-api
+  name: AstroPay QR Payments API
+  description: >-
+    QR Payments API for in-person and point-of-sale acceptance. Includes a
+    Payment Code API (create, update, status, exchange rate) and a POS API
+    (create, get, search) for issuing QR codes that customers scan with the
+    AstroPay wallet to pay.
+  humanURL: https://developers.astropay.com/docs/accept-astropay/qr-payments/introduction
+  tags:
+  - QR Payments
+  - Point of Sale
+  - POS
+  - Accept Payments
+  properties:
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/introduction
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/security-authentication
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/callbacks
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/create-payment-code
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/get-payment-code-by-id
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/get-payment-code-by-pos
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/get-payment-code-status
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/update-payment-code
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/payment-code-api/exchange-currency-rate
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/pos-api/create-pos
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/pos-api/get-pos
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/qr-payments/pos-api/search-pos
+    type: Documentation
+- aid: astropay:astropay-wallet-on-file-api
+  name: AstroPay Wallet-on-File API
+  description: >-
+    Wallet-on-File API for linking an AstroPay wallet to a merchant account
+    so funds can be pulled in one-click for recurring purchases. Covers
+    account linking (including singular generator), partner branding,
+    funds-pulling, transaction status, refunds, and webhooks.
+  humanURL: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/getting-started
+  tags:
+  - Wallet on File
+  - Account Linking
+  - One-Click Payments
+  - Recurring
+  properties:
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/getting-started
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/account-linking/
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/account-linking/account-linking-singular-generator
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/account-linking/disable-account-linking
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/funds-pulling
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/check-transaction-status
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/refund-transactions
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-on-file/webhooks
+    type: Documentation
+- aid: astropay:astropay-cashouts-api
+  name: AstroPay Cashouts API
+  description: >-
+    Wallet Payouts / Cashouts v1 API for sending payouts to AstroPay wallet
+    holders, including closed-loop transactions back to the originating
+    wallet. Supports merchant onboarding, status checks, and callbacks.
+  humanURL: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/getting-started
+  tags:
+  - Cashouts
+  - Wallet Payouts
+  - Payouts
+  properties:
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/getting-started
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/onboarding-cashout
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/request-parameters
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/check-cashout-status
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/callbacks
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/wallet-payouts/closed-loop-transactions
+    type: Documentation
+- aid: astropay:astropay-transaction-report-api
+  name: AstroPay Transaction Report API
+  description: >-
+    Transaction Report API exposing merchant balance and transaction export
+    endpoints for reconciliation, accounting, and reporting across both the
+    Accept AstroPay and Payment Processing surfaces.
+  humanURL: https://developers.astropay.com/docs/payment-processing/transaction-report/introduction
+  tags:
+  - Reporting
+  - Reconciliation
+  - Balances
+  properties:
+  - url: https://developers.astropay.com/docs/payment-processing/transaction-report/introduction
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/transaction-report/merchant-balance
+    type: Documentation
+  - url: https://developers.astropay.com/docs/payment-processing/transaction-report/transaction-export
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/transaction-report/introduction
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/transaction-report/merchant-balance
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/transaction-report/transaction-export
+    type: Documentation
+- aid: astropay:astropay-webhooks
+  name: AstroPay Webhooks
+  description: >-
+    Platform-wide webhook callback system for AstroPay. Webhooks are signed
+    and delivered for asynchronous payment, payout, card, wallet-on-file,
+    and account events across the entire AstroPay platform.
+  humanURL: https://developers.astropay.com/docs/platform/callbacks/webhooks
+  tags:
+  - Webhooks
+  - Callbacks
+  - Events
+  properties:
+  - url: https://developers.astropay.com/docs/platform/callbacks/
+    type: Documentation
+  - url: https://developers.astropay.com/docs/platform/callbacks/webhooks
+    type: Documentation
+  - url: https://developers.astropay.com/docs/platform/callbacks/signature
+    type: Documentation
+- aid: astropay:astropay-ecommerce-plugins
+  name: AstroPay E-Commerce Plugins
+  description: >-
+    Pre-built integrations that drop AstroPay acceptance into popular
+    e-commerce platforms without custom development. Shopify is the first
+    supported platform, with additional plugins in development.
+  humanURL: https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/introduction
+  tags:
+  - E-Commerce
+  - Plugins
+  - Shopify
+  - No-Code
+  properties:
+  - url: https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/introduction
+    type: Documentation
+  - url: https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/shopify
+    type: Documentation
+common:
+- type: Website
+  url: https://www.astropay.com
+- type: Portal
+  url: https://developers.astropay.com
+- type: Documentation
+  url: https://developers.astropay.com/docs/platform/introduction
+- type: GettingStarted
+  url: https://developers.astropay.com/docs/platform/introduction
+- type: Authentication
+  url: https://developers.astropay.com/docs/platform/authentication
+- type: Errors
+  url: https://developers.astropay.com/docs/platform/errors-codes
+- type: Webhooks
+  url: https://developers.astropay.com/docs/platform/callbacks/webhooks
+- type: ChangeLog
+  url: https://developers.astropay.com/api/
+- type: StatusPage
+  url: https://status.astropay.com
+- type: Support
+  url: https://business-support.astropay.com/
+- type: Help
+  url: https://app.astropay.com/help
+- type: Contact
+  url: https://developers.astropay.com/contact/
+- type: SignUp
+  url: https://business.astropay.com
+- type: Personal
+  url: https://www.astropay.com/personal
+- type: Business
+  url: https://www.astropay.com/business
+- type: Blog
+  url: https://www.astropay.com/blog
+- type: Careers
+  url: https://astropay.careers.hibob.com
+- type: GitHubOrganization
+  url: https://github.com/astropay
+- type: LinkedIn
+  url: https://www.linkedin.com/company/astropay
+- type: Twitter
+  url: https://twitter.com/astropayglobal
+- type: Facebook
+  url: https://www.facebook.com/AstroPayGlobal
+- type: Instagram
+  url: https://www.instagram.com/astropayglobal/
+- type: YouTube
+  url: https://www.youtube.com/astropay
+- type: TikTok
+  url: https://www.tiktok.com/@astropayglobal
+- type: SDK
+  url: https://developers.astropay.com/docs/platform/tokenizer/ios-sdk/getting-started
+  name: iOS Tokenizer SDK
+- type: SDK
+  url: https://developers.astropay.com/docs/platform/tokenizer/android-sdk/getting-started
+  name: Android Tokenizer SDK
+- type: SDK
+  url: https://developers.astropay.com/docs/accept-astropay/checkout/private/payments-lib-react-native/getting-started
+  name: Payments React Native Library
+- type: Plugins
+  url: https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/shopify
+  name: Shopify Plugin
+- type: Features
+  data:
+  - AstroPay multicurrency wallet across LatAm and global corridors (ARS, BRL, CLP, COP, EUR, GBP, MXN, PEN, USD, USDT, UYU)
+  - AstroCard virtual and physical prepaid cards with global acceptance
+  - Currency exchange and FX with Infinite-tier preferential rates
+  - Cross-border money transfers to bank accounts worldwide
+  - Local pay-in via PIX, Boleto, OXXO, SPEI, and other LatAm payment methods
+  - Local payout/withdrawal rails in Argentina, Brazil, Chile, Peru, and India
+  - Accept AstroPay Checkout — hosted, embedded (iframe/web component), and React Native integration modes
+  - QR Payments with POS API and Payment Code API for in-person acceptance
+  - Wallet-on-File one-click recurring purchases via account linking
+  - Cards-as-a-Service issuing for businesses (virtual and physical, branded)
+  - PCI-compliant Tokenizer with iOS and Android SDKs to reduce merchant PCI scope
+  - Savings accounts for end users (yield-bearing balances)
+  - Settlements API and Transaction Report API for merchant reconciliation
+  - Signed webhook callbacks for asynchronous event delivery
+  - Shopify plugin and additional e-commerce integrations
+  - Business Portal with payment links, POS management, payroll, and settlements
+  - Regulated as an EMI in the UK, Denmark, Isle of Man, and Brazil
+  - 24/7 multilingual support and bank-grade encryption
+  sources:
+  - https://www.astropay.com
+  - https://developers.astropay.com
+  - https://developers.astropay.com/docs/platform/introduction
+  - https://www.astropay.com/business
+  updated: '2026-05-24'
+- type: Solutions
+  data:
+  - Gaming and iGaming payments — deposits and withdrawals via local methods and AstroPay wallet
+  - Online marketplaces — split payouts to LatAm sellers in local currency
+  - Cross-border payroll — pay remote workers and contractors into AstroPay wallets
+  - Travel and ticketing — accept AstroPay across LatAm travelers
+  - Cryptocurrency on/off-ramps via USDT support
+  - E-commerce checkout — Shopify and custom storefronts
+  - Streaming and subscriptions — recurring billing through Wallet-on-File
+  - Remittance — bank deposits and wallet-to-wallet transfers
+  - Financial services and embedded finance for partner platforms
+  sources:
+  - https://www.astropay.com/business
+  - https://developers.astropay.com
+  updated: '2026-05-24'
+maintainers:
+- FN: Kin Lane
+  email: info@apievangelist.com
+  X: apievangelist
+  url: https://apievangelist.com
