@@ -475,7 +475,7 @@ common:
   url: https://developers.astropay.com/docs/platform/introduction
 - type: Authentication
   url: https://developers.astropay.com/docs/platform/authentication
-- type: Errors
+- type: ErrorCodes
   url: https://developers.astropay.com/docs/platform/errors-codes
 - type: Webhooks
   url: https://developers.astropay.com/docs/platform/callbacks/webhooks
@@ -489,7 +489,7 @@ common:
   url: https://app.astropay.com/help
 - type: Contact
   url: https://developers.astropay.com/contact/
-- type: SignUp
+- type: Signup
   url: https://business.astropay.com
 - type: Personal
   url: https://www.astropay.com/personal
@@ -513,13 +513,13 @@ common:
   url: https://www.youtube.com/astropay
 - type: TikTok
   url: https://www.tiktok.com/@astropayglobal
-- type: SDK
+- type: SDKs
   url: https://developers.astropay.com/docs/platform/tokenizer/ios-sdk/getting-started
   name: iOS Tokenizer SDK
-- type: SDK
+- type: SDKs
   url: https://developers.astropay.com/docs/platform/tokenizer/android-sdk/getting-started
   name: Android Tokenizer SDK
-- type: SDK
+- type: SDKs
   url: https://developers.astropay.com/docs/accept-astropay/checkout/private/payments-lib-react-native/getting-started
   name: Payments React Native Library
 - type: Plugins
