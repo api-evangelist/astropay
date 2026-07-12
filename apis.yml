@@ -465,6 +465,8 @@ apis:
   - url: https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/shopify
     type: Documentation
 common:
+- type: DomainSecurity
+  url: security/astropay-domain-security.yml
 - type: Website
   url: https://www.astropay.com
 - type: Portal
