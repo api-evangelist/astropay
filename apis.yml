@@ -40,6 +40,37 @@ tags:
 - Payments
 - Payment Processing
 - Payouts
+- Wallets
+- Digital Wallet
+- Multi-Currency
+- Cards
+- Card Issuing
+- Pix
+- LatAm
+- Latin America
+- Brazil
+- Argentina
+- Mexico
+- Chile
+- Peru
+- Colombia
+- Uruguay
+- Fintech
+- Foreign Exchange
+- Cross-Border Payments
+- Checkout
+- QR Payments
+- Tokenization
+- Embedded Finance
+- Money Transfer
+- Remittance
+- Gaming Payments
+- Marketplace Payments
+- Payroll
+tags_raw:
+- Payments
+- Payment Processing
+- Payouts
 - Wallet
 - Digital Wallet
 - Multicurrency
@@ -108,6 +139,11 @@ apis:
     backed by AstroPay's local Brazilian licensing.
   humanURL: https://developers.astropay.com/docs/platform/pix
   tags:
+  - Pix
+  - Brazil
+  - Instant Payments
+  - Platform
+  tags_raw:
   - PIX
   - Brazil
   - Instant Payments
@@ -138,6 +174,10 @@ apis:
     control to AstroPay platform resources.
   humanURL: https://developers.astropay.com/docs/platform/users-management
   tags:
+  - User
+  - Identity
+  - Platform
+  tags_raw:
   - Users
   - Identity
   - Platform
@@ -152,6 +192,10 @@ apis:
     account settings.
   humanURL: https://developers.astropay.com/docs/platform/user-account-management
   tags:
+  - Account
+  - Multi-Currency
+  - Platform
+  tags_raw:
   - Accounts
   - Multicurrency
   - Platform
@@ -193,6 +237,10 @@ apis:
     AstroPay platform.
   humanURL: https://developers.astropay.com/docs/platform/settlements
   tags:
+  - Settlement
+  - Reconciliation
+  - Platform
+  tags_raw:
   - Settlements
   - Reconciliation
   - Platform
@@ -334,6 +382,10 @@ apis:
   humanURL: https://developers.astropay.com/docs/accept-astropay/qr-payments/introduction
   tags:
   - QR Payments
+  - Point-of-Sale
+  - Accept Payments
+  tags_raw:
+  - QR Payments
   - Point of Sale
   - POS
   - Accept Payments
@@ -448,6 +500,10 @@ apis:
     and account events across the entire AstroPay platform.
   humanURL: https://developers.astropay.com/docs/platform/callbacks/webhooks
   tags:
+  - Webhook
+  - Callbacks
+  - Event
+  tags_raw:
   - Webhooks
   - Callbacks
   - Events
