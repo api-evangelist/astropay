@@ -57,7 +57,6 @@ tags:
 - Cards
 - Card Issuing
 - Pix
-- LatAm
 - Latin America
 - Brazil
 - Argentina
@@ -74,7 +73,7 @@ tags:
 - Tokenization
 - Embedded Finance
 - Money Transfer
-- Remittance
+- Remittances
 - Gaming Payments
 - Marketplace Payments
 - Payroll
@@ -136,6 +135,10 @@ apis:
     and B2B settlements across LatAm corridors.
   humanURL: https://developers.astropay.com/docs/platform/payout
   tags:
+  - Payouts
+  - Disbursements
+  - Platform
+  tags_raw:
   - Payouts
   - Disbursement
   - Platform
