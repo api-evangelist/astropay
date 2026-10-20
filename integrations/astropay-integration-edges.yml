@@ -1,0 +1,43 @@
+edges:
+- partner_name: Pix (Banco Central do Brasil)
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.bcb.gov.br/estabilidadefinanceira/participantespix
+  category: instant payments (Brazil)
+  contract_reference:
+    register: Pix participants (Banco Central do Brasil, https://www.bcb.gov.br/content/estabilidadefinanceira/participantes_pix/lista-participantes-instituicoes-em-adesao-pix-20261020.csv)
+    spec_file: null
+    standard: Pix
+    role: pix-participant
+    registrations:
+    - registered_name: ASTROPAY
+      ispb: '34006497'
+      cnpj: 34.006.497/0001-77
+      institution_type: Instituição de Pagamento
+      spi_participation: Indireta
+      pix_participation: Facultativa
+      pix_modality: Provedor de Conta Transacional
+      payment_initiation: false
+      matched_domain: null
+      matched_by: register-name
+      identity: register-name
+    signal_note: 'participation only: the domain comes from a labelled lookup (registrations[].identity)'
+    detected_by: sweep-latam-open-finance.py
+    detected: '2026-10-20'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-latam-open-finance.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://data.directory.openbankingbrasil.org.br/participants
+- https://www.bcb.gov.br/estabilidadefinanceira/participantespix
+checked:
+- https://data.directory.openbankingbrasil.org.br/participants
+- https://www.bcb.gov.br/estabilidadefinanceira/participantespix
