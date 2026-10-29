@@ -1,4 +1,4 @@
-# AstroPay (astropay)
+# AstroPay
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,177 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AstroPay is a Uruguay-founded fintech and electronic money institution offering a multicurrency wallet, virtual and physical AstroCards, FX, and cross-border money transfers for consumers across Latin America, plus a business platform that lets merchants accept payments, issue cards, manage payroll, and pay out to wallets and bank accounts. AstroPay is regulated as an EMI in the UK, Denmark, Isle of Man, and Brazil, and operates across Argentina, Brazil, Chile, Mexico, Peru, Colombia, Uruguay, and additional global corridors with support for ARS, BRL, CLP, COP, EUR, GBP, MXN, PEN, USD, USDT, and UYU. For developers, AstroPay exposes a comprehensive REST platform through [developers.astropay.com](https://developers.astropay.com) covering payments, payouts, PIX, issued cards, savings, scheme transfers, user account management, tokenization, settlements, transaction reporting, hosted/embedded Checkout, QR-code POS, Wallet-on-File, Cashouts, and signed webhook callbacks.
+AstroPay is a Uruguay-founded fintech and electronic money institution offering a multicurrency wallet, virtual and physical AstroCards, FX, and cross-border money transfers for consumers across Latin America, plus a business platform that lets merchants accept payments, issue cards, manage payroll, and pay out to wallets and bank accounts. AstroPay is regulated as an EMI in the UK, Denmark, Isle of Man, and Brazil, and operates the AstroPay wallet across Argentina, Brazil, Chile, Mexico, Peru, Colombia, Uruguay, and additional global corridors with support for ARS, BRL, CLP, COP, EUR, GBP, MXN, PEN, USD, USDT, and UYU. For developers, AstroPay exposes a comprehensive REST platform spanning payments, payouts, PIX instant payments in Brazil, issued cards, savings accounts, scheme transfers, user account management, tokenization (PCI-compliant card collection), settlements, transaction reporting, hosted and embedded Checkout, QR-code POS, Wallet-on-File account linking, Cashouts, and Webhooks — accessed through `developers.astropay.com` with HMAC-signed callbacks and an OAuth/API-key authentication model.
 
-**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/apis.yml)
+**Areas:** Payments · Payment Processing · Payouts · Wallets · Digital Wallet · Multi-Currency · Cards · Card Issuing · Pix · Latin America · Brazil · Argentina
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## AstroPay on APIs.io
 
-## Tags
+Everything profiled for AstroPay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/astropay/](https://apis.io/providers/astropay/)** — or go straight to one of the APIs or properties below.
 
-Payments, Payment Processing, Payouts, Wallet, Digital Wallet, Multicurrency, Cards, Card Issuing, PIX, LATAM, Latin America, Brazil, Argentina, Mexico, Chile, Peru, Colombia, Uruguay, Fintech, Foreign Exchange, Cross-Border Payments, Checkout, QR Payments, Tokenization, Embedded Finance, Money Transfer, Remittance, Gaming Payments, Marketplace Payments, Payroll
+### APIs (20)
 
-## Timestamps
+- [AstroPay Payments API](https://apis.io/apis/astropay/astropay-payments-api/) — Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported…
+- [AstroPay Payout API](https://apis.io/apis/astropay/astropay-payout-api/) — Payout API on the AstroPay platform for sending funds to AstroPay wallets, bank accounts, and other supported destinations. Used for marketplace seller…
+- [AstroPay PIX API](https://apis.io/apis/astropay/astropay-pix-api/) — PIX integration on the AstroPay platform for Brazil's instant payment rail. Create PIX charges, receive PIX payments, and issue PIX payouts backed by…
+- [AstroPay Cards Management API](https://apis.io/apis/astropay/astropay-cards-management-api/) — Cards Management API for programmatic issuance and lifecycle management of AstroPay virtual and physical prepaid cards. Used by businesses to issue branded…
+- [AstroPay Users Management API](https://apis.io/apis/astropay/astropay-users-management-api/) — Users Management API for creating and managing platform users associated with a merchant or partner account, including KYC linkage and access control to…
+- [AstroPay User Account Management API](https://apis.io/apis/astropay/astropay-user-account-management-api/) — User Account Management API for managing the financial accounts attached to a platform user, including multicurrency balances, statements, and account settings.
+- [AstroPay Scheme Transfers API](https://apis.io/apis/astropay/astropay-scheme-transfers-api/) — Scheme Transfers API for moving funds across AstroPay accounts and between schemes inside the AstroPay network, supporting wallet-to-wallet transfers and…
+- [AstroPay Savings Account API](https://apis.io/apis/astropay/astropay-savings-account-api/) — Savings Account API for creating and managing interest-bearing savings accounts attached to AstroPay platform users.
+- [AstroPay Settlements API](https://apis.io/apis/astropay/astropay-settlements-api/) — Settlements API for retrieving merchant settlement files, reconciling settled transactions, and downloading settlement reports across the AstroPay platform.
+- [AstroPay Tokenizer API](https://apis.io/apis/astropay/astropay-tokenizer-api/) — Tokenizer API and SDKs (iOS and Android) for PCI-compliant collection of sensitive card data. Cards are tokenized client-side and the token is used in…
+- [AstroPay Partners Services API](https://apis.io/apis/astropay/astropay-partners-services-api/) — Partners Services API for integrators and partner platforms to manage sub-merchants, services, and partner-scoped resources on the AstroPay platform.
+- [AstroPay Direct Payment API](https://apis.io/apis/astropay/astropay-direct-payment-api/) — Direct Payment API for processing local pay-ins via the AstroPay payment processing rail. Supports Brazil and Mexico with local payment methods (PIX,…
+- [AstroPay Direct Withdrawal API](https://apis.io/apis/astropay/astropay-direct-withdrawal-api/) — Direct Withdrawal API for processing local payouts and withdrawals into bank accounts across Argentina, Brazil, Chile, India, and Peru. Used by…
+- [AstroPay Checkout API](https://apis.io/apis/astropay/astropay-checkout-api/) — Accept AstroPay Checkout — a hosted and embedded payment acceptance flow that lets merchants accept AstroPay wallet payments alongside local payment…
+- [AstroPay QR Payments API](https://apis.io/apis/astropay/astropay-qr-payments-api/) — QR Payments API for in-person and point-of-sale acceptance. Includes a Payment Code API (create, update, status, exchange rate) and a POS API (create, get,…
+- [AstroPay Wallet-on-File API](https://apis.io/apis/astropay/astropay-wallet-on-file-api/) — Wallet-on-File API for linking an AstroPay wallet to a merchant account so funds can be pulled in one-click for recurring purchases. Covers account linking…
+- [AstroPay Cashouts API](https://apis.io/apis/astropay/astropay-cashouts-api/) — Wallet Payouts / Cashouts v1 API for sending payouts to AstroPay wallet holders, including closed-loop transactions back to the originating wallet. Supports…
+- [AstroPay Transaction Report API](https://apis.io/apis/astropay/astropay-transaction-report-api/) — Transaction Report API exposing merchant balance and transaction export endpoints for reconciliation, accounting, and reporting across both the Accept…
+- [AstroPay Webhooks](https://apis.io/apis/astropay/astropay-webhooks/) — Platform-wide webhook callback system for AstroPay. Webhooks are signed and delivered for asynchronous payment, payout, card, wallet-on-file, and account…
+- [AstroPay E-Commerce Plugins](https://apis.io/apis/astropay/astropay-ecommerce-plugins/) — Pre-built integrations that drop AstroPay acceptance into popular e-commerce platforms without custom development. Shopify is the first supported platform,…
 
-- **Created:** 2026-05-24
-- **Modified:** 2026-05-24
+### Published properties
 
-## Geographic Coverage
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Region | Primary methods |
-|---|---|
-| Brazil | PIX, Boleto, AstroPay wallet, local card processing |
-| Argentina | Bank transfers, AstroPay wallet, local withdrawals |
-| Mexico | SPEI, OXXO, AstroPay wallet |
-| Chile | Local bank rails, AstroPay wallet |
-| Peru | Local bank rails, AstroPay wallet |
-| Colombia | AstroPay wallet, FX |
-| Uruguay | AstroPay wallet (home market), local rails |
-| India | Direct Withdrawal local rails |
-| Global | Multicurrency wallet, AstroCard, USDT, FX |
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-### AstroPay Payments API
-Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported local payment methods. Backs merchant pay-in flows initiated from Checkout or built directly server-to-server.
+- [Astropay Domain Security](https://apis.io/security/astropay/astropay-domain-security/)
 
-**Human URL:** [https://developers.astropay.com/docs/platform/payments](https://developers.astropay.com/docs/platform/payments)
+## Where to find this API
 
-### AstroPay Payout API
-Send funds to AstroPay wallets, bank accounts, and other supported destinations. Used for marketplace seller payouts, gaming withdrawals, payroll disbursements, and B2B settlements across LatAm corridors.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-**Human URL:** [https://developers.astropay.com/docs/platform/payout](https://developers.astropay.com/docs/platform/payout)
-
-### AstroPay PIX API
-PIX integration for Brazil's instant payment rail. Create PIX charges, receive PIX payments, and issue PIX payouts backed by AstroPay's local Brazilian licensing.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/pix](https://developers.astropay.com/docs/platform/pix)
-
-### AstroPay Cards Management API
-Programmatic issuance and lifecycle management of AstroPay virtual and physical prepaid cards. Used by businesses to issue branded cards to employees, contractors, marketplace participants, and end users.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/cards-management](https://developers.astropay.com/docs/platform/cards-management)
-
-### AstroPay Users Management API
-Create and manage platform users associated with a merchant or partner account, including KYC linkage and access control to AstroPay platform resources.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/users-management](https://developers.astropay.com/docs/platform/users-management)
-
-### AstroPay User Account Management API
-Manage the financial accounts attached to a platform user, including multicurrency balances, statements, and account settings.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/user-account-management](https://developers.astropay.com/docs/platform/user-account-management)
-
-### AstroPay Scheme Transfers API
-Move funds across AstroPay accounts and between schemes inside the AstroPay network — wallet-to-wallet transfers and internal book transfers.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/scheme-transfers](https://developers.astropay.com/docs/platform/scheme-transfers)
-
-### AstroPay Savings Account API
-Create and manage interest-bearing savings accounts attached to AstroPay platform users.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/savings-account](https://developers.astropay.com/docs/platform/savings-account)
-
-### AstroPay Settlements API
-Retrieve merchant settlement files, reconcile settled transactions, and download settlement reports.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/settlements](https://developers.astropay.com/docs/platform/settlements)
-
-### AstroPay Tokenizer API
-PCI-compliant card data collection. Cards are tokenized client-side via the iOS and Android Tokenizer SDKs and the resulting token is used server-to-server, reducing PCI scope for merchants.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/tokenizer/tokenizer-api](https://developers.astropay.com/docs/platform/tokenizer/tokenizer-api)
-
-### AstroPay Partners Services API
-For integrators and partner platforms to manage sub-merchants, services, and partner-scoped resources on the AstroPay platform.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/partners-services](https://developers.astropay.com/docs/platform/partners-services)
-
-### AstroPay Direct Payment API
-Local pay-ins via the AstroPay payment processing rail. Supports Brazil and Mexico with local payment methods (PIX, Boleto, OXXO, SPEI) for merchants integrating without the AstroPay wallet.
-
-**Human URL:** [https://developers.astropay.com/docs/payment-processing/direct-payment/getting-started](https://developers.astropay.com/docs/payment-processing/direct-payment/getting-started)
-
-### AstroPay Direct Withdrawal API
-Local payouts and withdrawals into bank accounts across Argentina, Brazil, Chile, India, and Peru. Used by marketplaces, gaming operators, and other payout-heavy businesses.
-
-**Human URL:** [https://developers.astropay.com/docs/payment-processing/direct-withdrawal/getting-started](https://developers.astropay.com/docs/payment-processing/direct-withdrawal/getting-started)
-
-### AstroPay Checkout API
-Hosted and embedded payment acceptance flow with offsite (redirect), embedded (iframe / web component), and React Native integration modes. Themed, internationalized, with full payment-lifecycle management (create, callback/status, refund).
-
-**Human URL:** [https://developers.astropay.com/docs/accept-astropay/checkout/overview](https://developers.astropay.com/docs/accept-astropay/checkout/overview)
-
-### AstroPay QR Payments API
-In-person and point-of-sale acceptance. Payment Code API (create, update, status, exchange-rate) and POS API (create, get, search) for issuing QR codes that customers scan with the AstroPay wallet.
-
-**Human URL:** [https://developers.astropay.com/docs/accept-astropay/qr-payments/introduction](https://developers.astropay.com/docs/accept-astropay/qr-payments/introduction)
-
-### AstroPay Wallet-on-File API
-Link an AstroPay wallet to a merchant account so funds can be pulled in one-click for recurring purchases. Covers account linking (incl. singular generator), partner branding, funds-pulling, transaction status, refunds, and webhooks.
-
-**Human URL:** [https://developers.astropay.com/docs/accept-astropay/wallet-on-file/getting-started](https://developers.astropay.com/docs/accept-astropay/wallet-on-file/getting-started)
-
-### AstroPay Cashouts API
-Wallet Payouts / Cashouts v1 — send payouts to AstroPay wallet holders, including closed-loop transactions back to the originating wallet. Supports merchant onboarding, status checks, and callbacks.
-
-**Human URL:** [https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/getting-started](https://developers.astropay.com/docs/accept-astropay/wallet-payouts/cashouts-v1/getting-started)
-
-### AstroPay Transaction Report API
-Merchant balance and transaction export endpoints for reconciliation, accounting, and reporting across both the Accept AstroPay and Payment Processing surfaces.
-
-**Human URL:** [https://developers.astropay.com/docs/payment-processing/transaction-report/introduction](https://developers.astropay.com/docs/payment-processing/transaction-report/introduction)
-
-### AstroPay Webhooks
-Platform-wide signed webhook callbacks for asynchronous payment, payout, card, wallet-on-file, and account events.
-
-**Human URL:** [https://developers.astropay.com/docs/platform/callbacks/webhooks](https://developers.astropay.com/docs/platform/callbacks/webhooks)
-
-### AstroPay E-Commerce Plugins
-Pre-built integrations that drop AstroPay acceptance into popular e-commerce platforms without custom development. Shopify is the first supported platform.
-
-**Human URL:** [https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/introduction](https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/introduction)
-
-## Common Properties
-
-- [Website — astropay.com](https://www.astropay.com)
-- [Portal — Developer Portal](https://developers.astropay.com)
-- [Documentation — Platform Introduction](https://developers.astropay.com/docs/platform/introduction)
-- [GettingStarted](https://developers.astropay.com/docs/platform/introduction)
-- [Authentication](https://developers.astropay.com/docs/platform/authentication)
-- [Errors](https://developers.astropay.com/docs/platform/errors-codes)
-- [Webhooks](https://developers.astropay.com/docs/platform/callbacks/webhooks)
-- [StatusPage](https://status.astropay.com)
-- [Support — Business](https://business-support.astropay.com/)
-- [Help — App](https://app.astropay.com/help)
-- [Contact](https://developers.astropay.com/contact/)
-- [SignUp — Business](https://business.astropay.com)
-- [Personal](https://www.astropay.com/personal)
-- [Business](https://www.astropay.com/business)
+- [Website](https://www.astropay.com)
+- [Documentation](https://developers.astropay.com/docs/platform/introduction)
+- [Getting started](https://developers.astropay.com/docs/platform/introduction)
+- [Support](https://business-support.astropay.com/)
+- [Changelog](https://developers.astropay.com/api/)
 - [Blog](https://www.astropay.com/blog)
-- [Careers](https://astropay.careers.hibob.com)
-- [GitHubOrganization](https://github.com/astropay)
-- [LinkedIn](https://www.linkedin.com/company/astropay)
-- [Twitter](https://twitter.com/astropayglobal)
-- [SDK — iOS Tokenizer](https://developers.astropay.com/docs/platform/tokenizer/ios-sdk/getting-started)
-- [SDK — Android Tokenizer](https://developers.astropay.com/docs/platform/tokenizer/android-sdk/getting-started)
-- [SDK — React Native Payments Library](https://developers.astropay.com/docs/accept-astropay/checkout/private/payments-lib-react-native/getting-started)
-- [Plugins — Shopify](https://developers.astropay.com/docs/accept-astropay/ecommerce-plugins/shopify)
+- [GitHub](https://github.com/astropay)
+- [Status](https://status.astropay.com)
 
-## Solutions
+## API Evangelist rating
 
-- Gaming and iGaming payments — deposits and withdrawals via local methods and AstroPay wallet
-- Online marketplaces — split payouts to LatAm sellers in local currency
-- Cross-border payroll — pay remote workers and contractors into AstroPay wallets
-- Travel and ticketing — accept AstroPay across LatAm travelers
-- Cryptocurrency on/off-ramps via USDT support
-- E-commerce checkout — Shopify and custom storefronts
-- Streaming and subscriptions — recurring billing through Wallet-on-File
-- Remittance — bank deposits and wallet-to-wallet transfers
-- Financial services and embedded finance for partner platforms
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 13.2 |
 
-**FN:** Kin Lane
+**Agent readiness 9.3** — agent-aware
 
-**Email:** info@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/astropay/](https://apis.io/providers/astropay/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AstroPay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/astropay/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
